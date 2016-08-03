@@ -1,3 +1,10 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%%
+}
 .header {
   margin-left: 33%;
   border: 5px solid black;
@@ -10,8 +17,8 @@
   position: absolute;
   left: 0;
   top: 0;
-  width: auto;
-  height: 100%;
+  width: 100%;
+  min-height: 100%;
   opacity: 0.5;
   z-index: -1;
 
@@ -23,8 +30,16 @@
   margin-top: -15%;
 }
 
+.border {
+  border: 4px black;
+  border-style: ridge;
+  padding: 4px;
+  background-color: #E53E00;
+}
+
 .walker {
-  margin-left: 7%;
+  width: 30%;
+  margin-left: 5%;
   margin-top: 15%;
 }
 
